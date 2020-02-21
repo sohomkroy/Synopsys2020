@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5fba419c-e064-4537-ba07-6af16029febf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ArduinoCode/OnGroundRobot/FirebaseTest/FirebaseTest.ino" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ArduinoCode/OnGroundRobot/FirebaseTest/FirebaseTest.ino" beforeDir="false" afterPath="$PROJECT_DIR$/ArduinoCode/OnGroundRobot/FirebaseTest/FirebaseTest.ino" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/OnBoardRobotRun.py" beforeDir="false" afterPath="$PROJECT_DIR$/OnBoardRobotRun.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OnGroundRobot/FireBaseInterfacer.py" beforeDir="false" afterPath="$PROJECT_DIR$/OnGroundRobot/FireBaseInterfacer.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/OnGroundRobot/Visualizer.py" beforeDir="false" afterPath="$PROJECT_DIR$/OnGroundRobot/Visualizer.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,20 +13,21 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/Synopsys2020$OnBoardRobotRun__1_.coverage" NAME="OnBoardRobotRun (1) Coverage Results" MODIFIED="1582272851852" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Synopsys2020$OnBoardRobotRun__1_.coverage" NAME="OnBoardRobotRun (1) Coverage Results" MODIFIED="1582283280565" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Synopsys2020$InputRead2.coverage" NAME="InputRead2 Coverage Results" MODIFIED="1582111882688" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OnGroundRobot" />
     <SUITE FILE_PATH="coverage/Synopsys2020$FireBaseInterfacer.coverage" NAME="FireBaseInterfacer Coverage Results" MODIFIED="1582271039141" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OnGroundRobot" />
+    <SUITE FILE_PATH="coverage/Synopsys2020$Gamepad.coverage" NAME="Gamepad Coverage Results" MODIFIED="1582283299456" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OnGroundRobot" />
     <SUITE FILE_PATH="coverage/Synopsys2020$InputRead.coverage" NAME="InputRead Coverage Results" MODIFIED="1582109277826" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OnGroundRobot" />
     <SUITE FILE_PATH="coverage/Synopsys2020$Visualizer.coverage" NAME="Visualizer Coverage Results" MODIFIED="1582197841369" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OnGroundRobot" />
-    <SUITE FILE_PATH="coverage/Synopsys2020$OnBoardRobotRun.coverage" NAME="OnBoardRobotRun Coverage Results" MODIFIED="1582198904000" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OnGroundRobot" />
+    <SUITE FILE_PATH="coverage/Synopsys2020$OnBoardRobotRun.coverage" NAME="OnBoardRobotRun Coverage Results" MODIFIED="1582285006848" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OnGroundRobot" />
   </component>
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/OnGroundRobot/Visualizer.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="18" selection-start-line="18" selection-end-line="18" />
+            <state relative-caret-position="146">
+              <caret line="114" column="47" selection-start-line="114" selection-start-column="47" selection-end-line="114" selection-end-column="47" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
@@ -39,10 +38,22 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/OnBoardRobotRun.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="58" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="58" />
+            <state relative-caret-position="168">
+              <caret line="37" selection-start-line="37" selection-end-line="37" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/OnGroundRobot/Gamepad.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-811">
+              <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -78,9 +89,9 @@
         <option value="$PROJECT_DIR$/OnGroundRobot/OnBoardRobotRun.py" />
         <option value="$PROJECT_DIR$/OnGroundRobot/GamepadFile.py" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/OnGroundRobot/Visualizer.py" />
         <option value="$PROJECT_DIR$/OnGroundRobot/FireBaseInterfacer.py" />
         <option value="$PROJECT_DIR$/OnBoardRobotRun.py" />
+        <option value="$PROJECT_DIR$/OnGroundRobot/Visualizer.py" />
       </list>
     </option>
   </component>
@@ -144,7 +155,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.OnBoardRobotRun (1)">
+  <component name="RunManager" selected="Python.OnBoardRobotRun">
     <configuration name="FireBaseInterfacer" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Synopsys2020" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -167,7 +178,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="InputRead2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="Gamepad" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Synopsys2020" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -180,7 +191,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="D:\Sohom\Programming_Data\Synopsys2020\OnGroundRobot\Gamepad.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/OnGroundRobot/Gamepad.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -257,11 +268,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.OnBoardRobotRun" />
+        <item itemvalue="Python.Gamepad" />
         <item itemvalue="Python.OnBoardRobotRun (1)" />
         <item itemvalue="Python.FireBaseInterfacer" />
-        <item itemvalue="Python.OnBoardRobotRun" />
         <item itemvalue="Python.Visualizer" />
-        <item itemvalue="Python.InputRead2" />
       </list>
     </recent_temporary>
   </component>
@@ -275,19 +286,19 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1582100764086</updated>
-      <workItem from="1582100766960" duration="28566000" />
+      <workItem from="1582100766960" duration="36092000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28566000" />
+    <option name="totallyTimeSpent" value="36092000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.33117408" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.33117408" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" />
@@ -297,7 +308,7 @@
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.38010657" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.27886322" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39964476" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -333,16 +344,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/OnGroundRobot/Gamepad.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/OnGroundRobot/FireBaseInterfacer.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="196">
@@ -373,10 +374,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/OnGroundRobot/Gamepad.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-811">
+          <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/OnBoardRobotRun.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="58" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="58" />
+        <state relative-caret-position="168">
+          <caret line="37" selection-start-line="37" selection-end-line="37" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
           </folding>
@@ -385,8 +396,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/OnGroundRobot/Visualizer.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        <state relative-caret-position="146">
+          <caret line="114" column="47" selection-start-line="114" selection-start-column="47" selection-end-line="114" selection-end-column="47" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
           </folding>

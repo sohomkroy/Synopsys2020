@@ -1,4 +1,5 @@
 import cv2
+import math
 from OnGroundRobot import Gamepad
 from OnGroundRobot import Visualizer
 from OnGroundRobot import FireBaseInterfacer
@@ -6,7 +7,6 @@ from OnGroundRobot import FireBaseInterfacer
 
 gp = Gamepad.GamePad()
 vis = Visualizer.Visualizer("")
-
 
 config = {
         "apiKey": "AIzaSyBBFze3rkgjPBwEkno8ZFOuHZLCWhbXstk",
@@ -21,6 +21,9 @@ light_on:bool = False
 left_stick_y: float = 0
 right_stick_x: float = 0
 data: dict = None
+
+sound_level = 0
+
 while True:
 
     gp.poll_gamepad()
@@ -32,19 +35,23 @@ while True:
 
     left_stick_y = gp.left_stick_y
     right_stick_x = gp.right_stick_x
-
-    if (abs(left_stick_y)<.05):
+    if (abs(left_stick_y)<.1):
         left_stick_y = 0
-    if (abs(right_stick_x)<.05):
+    if (abs(right_stick_x)<.1):
         right_stick_x = 0
 
     data = db.get_information()
     db.write_information(gp.left_stick_y, gp.right_stick_x, light_on)
-    frame = vis.get_frame(gp.left_stick_y, -gp.right_stick_x, data.get('MicrophoneLevel'), data.get('Gas'), light_on, data.get('WifiNetwork'), data.get('MotionDetected'))
+    #data.get('MicrophoneLevel')
+    frame = vis.get_frame(gp.left_stick_y, -gp.right_stick_x, math.sin(sound_level)/2+.5, data.get('Gas'), light_on, data.get('WifiNetwork'), data.get('MotionDetected'))
 
     if (frame is None) or (cv2.waitKey(1) & 0xFF == ord('q')):
         break
     cv2.imshow("camera stream", frame)
+
+    sound_level+=.1
+
+
 
 
 vis.release_visualizer()
