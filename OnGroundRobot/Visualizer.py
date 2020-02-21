@@ -16,8 +16,7 @@ class Visualizer():
     def get_frame(self, forward_amount: int, turning_amount: int,
                   microphone_level: float, gas_level: float, light_on: bool,
                   wifi_network: str, motion_detected: bool):
-
-        green_light = cv2.imread("green_light.png")
+        green_light = cv2.imread("D:\Sohom\Programming_Data\Synopsys2020\OnGroundRobot\green_light.png")
         green_light = cv2.resize(green_light, (30, 40), interpolation=cv2.INTER_AREA)
 
         ret, frame = self.capture.read()

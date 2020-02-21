@@ -15,7 +15,7 @@ class FireBaseUpdater():
         return self.info
 
     def write_information(self, ControllerLy: float, ControllerRx: float, light_on: bool):
-        data = {'ControllerLy_Rx':[ControllerLy, ControllerRx], 'LightOne': True}
+        data = {'ControllerLy_Rx':[ControllerLy, ControllerRx], 'LightOn': light_on}
         self.db.child("OnGroundRobot").child("Send").set(data)
 
 def main():
