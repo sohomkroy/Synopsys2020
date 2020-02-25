@@ -2,28 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5fba419c-e064-4537-ba07-6af16029febf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ArduinoCode/OnGroundRobot/CameraWebServer/CameraWebServer.ino" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ArduinoCode/OnGroundRobot/CameraWebServer/app_httpd.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ArduinoCode/OnGroundRobot/CameraWebServer/camera_index.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ArduinoCode/OnGroundRobot/CameraWebServer/camera_pins.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ArduinoCode/OnGroundRobot/DataPushPull/DataPushPull.ino" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ArduinoCode/OnGroundRobot/FirebaseTest2/FirebaseTest2.ino" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ArduinoCode/OnGroundRobot/GasSensorTest/GasSensorTest.ino" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ArduinoCode/OnGroundRobot/MotionDetectorTest/MotionDetectorTest.ino" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DroneCode/BrushlessMotorControll.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DroneCode/ExcelSheetForBrushlessMotor.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DroneCode/ThreadingTest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OnGroundRobot/NotInUse/VideoTest2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OnGroundRobot/VideoTest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RealtimeObjectDetection/MobileNetSSD_deploy.caffemodel" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RealtimeObjectDetection/MobileNetSSD_deploy.prototxt.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RealtimeObjectDetection/RealTimeObjectDetectionSample.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TODO" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ArduinoCode/OnGroundRobot/FirebaseDemo_ESP8266/FirebaseDemo_ESP8266.ino" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ArduinoCode/OnGroundRobot/FirebaseTest/FirebaseTest.ino" beforeDir="false" afterPath="$PROJECT_DIR$/ArduinoCode/OnGroundRobot/FirebaseTest/FirebaseTest.ino" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OnBoardRobotRun.py" beforeDir="false" afterPath="$PROJECT_DIR$/OnBoardRobotRun.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OnGroundRobot/Visualizer.py" beforeDir="false" afterPath="$PROJECT_DIR$/OnGroundRobot/Visualizer.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -135,8 +114,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/TODO">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+            <state relative-caret-position="102">
+              <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -230,7 +209,22 @@
             <path>
               <item name="Synopsys2020" type="b2602c69:ProjectViewProjectNode" />
               <item name="Synopsys2020" type="462c0819:PsiDirectoryNode" />
+              <item name="DroneCode" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Synopsys2020" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Synopsys2020" type="462c0819:PsiDirectoryNode" />
               <item name="OnGroundRobot" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Synopsys2020" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Synopsys2020" type="462c0819:PsiDirectoryNode" />
+              <item name="RealtimeObjectDetection" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Synopsys2020" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Synopsys2020" type="462c0819:PsiDirectoryNode" />
+              <item name="Util" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -400,23 +394,22 @@
       <option name="presentableId" value="Default" />
       <updated>1582100764086</updated>
       <workItem from="1582100766960" duration="48297000" />
-      <workItem from="1582607165345" duration="8968000" />
+      <workItem from="1582607165345" duration="9235000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="57265000" />
+    <option name="totallyTimeSpent" value="57532000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.33684212" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3428064" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3428064" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39964476" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -581,8 +574,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/TODO">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+        <state relative-caret-position="102">
+          <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
         </state>
       </provider>
     </entry>
