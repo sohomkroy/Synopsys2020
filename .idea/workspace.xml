@@ -2,6 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5fba419c-e064-4537-ba07-6af16029febf" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/ArduinoCode/OnGroundRobot/CameraWebServer/CameraWebServer.ino" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ArduinoCode/OnGroundRobot/CameraWebServer/app_httpd.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ArduinoCode/OnGroundRobot/CameraWebServer/camera_index.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ArduinoCode/OnGroundRobot/CameraWebServer/camera_pins.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ArduinoCode/OnGroundRobot/DataPushPull/DataPushPull.ino" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ArduinoCode/OnGroundRobot/FirebaseTest2/FirebaseTest2.ino" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ArduinoCode/OnGroundRobot/GasSensorTest/GasSensorTest.ino" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ArduinoCode/OnGroundRobot/MotionDetectorTest/MotionDetectorTest.ino" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DroneCode/BrushlessMotorControll.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DroneCode/ExcelSheetForBrushlessMotor.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DroneCode/ThreadingTest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnGroundRobot/NotInUse/VideoTest2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnGroundRobot/VideoTest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RealtimeObjectDetection/MobileNetSSD_deploy.caffemodel" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RealtimeObjectDetection/MobileNetSSD_deploy.prototxt.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RealtimeObjectDetection/RealTimeObjectDetectionSample.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TODO" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ArduinoCode/OnGroundRobot/FirebaseDemo_ESP8266/FirebaseDemo_ESP8266.ino" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/ArduinoCode/OnGroundRobot/FirebaseTest/FirebaseTest.ino" beforeDir="false" afterPath="$PROJECT_DIR$/ArduinoCode/OnGroundRobot/FirebaseTest/FirebaseTest.ino" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/OnBoardRobotRun.py" beforeDir="false" afterPath="$PROJECT_DIR$/OnBoardRobotRun.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/OnGroundRobot/Visualizer.py" beforeDir="false" afterPath="$PROJECT_DIR$/OnGroundRobot/Visualizer.py" afterDir="false" />
@@ -14,20 +33,24 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/Synopsys2020$OnBoardRobotRun__1_.coverage" NAME="OnBoardRobotRun (1) Coverage Results" MODIFIED="1582283280565" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Synopsys2020$VideoTest.coverage" NAME="VideoTest Coverage Results" MODIFIED="1582610238020" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OnGroundRobot" />
     <SUITE FILE_PATH="coverage/Synopsys2020$InputRead2.coverage" NAME="InputRead2 Coverage Results" MODIFIED="1582111882688" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OnGroundRobot" />
+    <SUITE FILE_PATH="coverage/Synopsys2020$VideoTest2.coverage" NAME="VideoTest2 Coverage Results" MODIFIED="1582610457205" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OnGroundRobot/NotInUse" />
+    <SUITE FILE_PATH="coverage/Synopsys2020$ThreadingTest.coverage" NAME="ThreadingTest Coverage Results" MODIFIED="1582616017762" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DroneCode" />
     <SUITE FILE_PATH="coverage/Synopsys2020$FireBaseInterfacer.coverage" NAME="FireBaseInterfacer Coverage Results" MODIFIED="1582271039141" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OnGroundRobot" />
     <SUITE FILE_PATH="coverage/Synopsys2020$Gamepad.coverage" NAME="Gamepad Coverage Results" MODIFIED="1582283299456" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OnGroundRobot" />
     <SUITE FILE_PATH="coverage/Synopsys2020$InputRead.coverage" NAME="InputRead Coverage Results" MODIFIED="1582109277826" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OnGroundRobot" />
     <SUITE FILE_PATH="coverage/Synopsys2020$Visualizer.coverage" NAME="Visualizer Coverage Results" MODIFIED="1582197841369" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OnGroundRobot" />
-    <SUITE FILE_PATH="coverage/Synopsys2020$OnBoardRobotRun.coverage" NAME="OnBoardRobotRun Coverage Results" MODIFIED="1582285006848" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OnGroundRobot" />
+    <SUITE FILE_PATH="coverage/Synopsys2020$OnBoardRobotRun.coverage" NAME="OnBoardRobotRun Coverage Results" MODIFIED="1582417613715" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OnGroundRobot" />
+    <SUITE FILE_PATH="coverage/Synopsys2020$RealTimeObjectDetectionSample.coverage" NAME="RealTimeObjectDetectionSample Coverage Results" MODIFIED="1582611780561" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/RealtimeObjectDetection" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/OnGroundRobot/Visualizer.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="146">
-              <caret line="114" column="47" selection-start-line="114" selection-start-column="47" selection-end-line="114" selection-end-column="47" />
+            <state relative-caret-position="306">
+              <caret line="19" column="52" selection-start-line="19" selection-start-column="43" selection-end-line="19" selection-end-column="52" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
@@ -36,13 +59,84 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ArduinoCode/OnGroundRobot/FirebaseTest/FirebaseTest.ino">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/OnBoardRobotRun.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="37" selection-start-line="37" selection-end-line="37" />
+            <state relative-caret-position="680">
+              <caret line="44" column="102" selection-start-line="44" selection-start-column="102" selection-end-line="44" selection-end-column="102" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/OnGroundRobot/VideoTest.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="35" selection-start-line="3" selection-start-column="35" selection-end-line="3" selection-end-column="35" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/OnGroundRobot/NotInUse/VideoTest2.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
+              <folding>
+                <element signature="e#1#17#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/RealtimeObjectDetection/RealTimeObjectDetectionSample.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1394">
+              <caret line="81" column="4" selection-start-line="81" selection-start-column="4" selection-end-line="81" selection-end-column="4" />
+              <folding>
+                <element signature="e#32#69#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DroneCode/BrushlessMotorControll.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-274">
+              <caret line="24" selection-start-line="24" selection-end-line="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DroneCode/ThreadingTest.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
+              <folding>
+                <element signature="e#0#16#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/TODO">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -50,7 +144,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/OnGroundRobot/Gamepad.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-811">
+            <state relative-caret-position="68">
               <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
@@ -90,8 +184,15 @@
         <option value="$PROJECT_DIR$/OnGroundRobot/GamepadFile.py" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/OnGroundRobot/FireBaseInterfacer.py" />
-        <option value="$PROJECT_DIR$/OnBoardRobotRun.py" />
         <option value="$PROJECT_DIR$/OnGroundRobot/Visualizer.py" />
+        <option value="$PROJECT_DIR$/OnBoardRobotRun.py" />
+        <option value="$PROJECT_DIR$/../../Downloads/esp32-rtsp-master/esp32-rtsp-master/python/viewer.py" />
+        <option value="$PROJECT_DIR$/OnGroundRobot/VideoTest.py" />
+        <option value="$PROJECT_DIR$/OnGroundRobot/NotInUse/VideoTest2.py" />
+        <option value="$PROJECT_DIR$/RealtimeObjectDetection/RealTimeObjectDetectionSample.py" />
+        <option value="$PROJECT_DIR$/DroneCode/BrushlessMotorControll.py" />
+        <option value="$PROJECT_DIR$/DroneCode/ThreadingTest.py" />
+        <option value="$PROJECT_DIR$/TODO" />
       </list>
     </option>
   </component>
@@ -107,6 +208,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -117,13 +219,23 @@
             <path>
               <item name="Synopsys2020" type="b2602c69:ProjectViewProjectNode" />
               <item name="Synopsys2020" type="462c0819:PsiDirectoryNode" />
+              <item name="ArduinoCode" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Synopsys2020" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Synopsys2020" type="462c0819:PsiDirectoryNode" />
+              <item name="ArduinoCode" type="462c0819:PsiDirectoryNode" />
+              <item name="OnGroundRobot" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Synopsys2020" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Synopsys2020" type="462c0819:PsiDirectoryNode" />
               <item name="OnGroundRobot" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -134,13 +246,14 @@
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Sohom\Programming_Data\Synopsys2020\RealtimeObjectDetection" />
+      <recent name="D:\Sohom\Programming_Data\Synopsys2020\OnGroundRobot" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Sohom\Programming_Data\Synopsys2020" />
       <recent name="D:\Sohom\Programming_Data\Synopsys2020\OnGroundRobot\Util" />
       <recent name="D:\Sohom\Programming_Data\Synopsys2020\OnGroundRobot\NotInUse" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Sohom\Programming_Data\Synopsys2020\OnGroundRobot" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -155,73 +268,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.OnBoardRobotRun">
-    <configuration name="FireBaseInterfacer" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Synopsys2020" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/OnGroundRobot" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/OnGroundRobot/FireBaseInterfacer.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Gamepad" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Synopsys2020" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/OnGroundRobot" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/OnGroundRobot/Gamepad.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="OnBoardRobotRun (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Synopsys2020" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/OnBoardRobotRun.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.ThreadingTest">
     <configuration name="OnBoardRobotRun" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Synopsys2020" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -244,7 +291,51 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Visualizer" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="RealTimeObjectDetectionSample" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Synopsys2020" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/RealtimeObjectDetection" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/RealtimeObjectDetection/RealTimeObjectDetectionSample.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ThreadingTest" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Synopsys2020" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DroneCode" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DroneCode/ThreadingTest.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="VideoTest" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Synopsys2020" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -257,7 +348,29 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/OnGroundRobot/Visualizer.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/OnGroundRobot/VideoTest.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="VideoTest2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Synopsys2020" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/OnGroundRobot/NotInUse" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/OnGroundRobot/NotInUse/VideoTest2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -268,11 +381,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.ThreadingTest" />
+        <item itemvalue="Python.RealTimeObjectDetectionSample" />
+        <item itemvalue="Python.VideoTest2" />
+        <item itemvalue="Python.VideoTest" />
         <item itemvalue="Python.OnBoardRobotRun" />
-        <item itemvalue="Python.Gamepad" />
-        <item itemvalue="Python.OnBoardRobotRun (1)" />
-        <item itemvalue="Python.FireBaseInterfacer" />
-        <item itemvalue="Python.Visualizer" />
       </list>
     </recent_temporary>
   </component>
@@ -286,39 +399,40 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1582100764086</updated>
-      <workItem from="1582100766960" duration="36092000" />
+      <workItem from="1582100766960" duration="48297000" />
+      <workItem from="1582607165345" duration="8968000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36092000" />
+    <option name="totallyTimeSpent" value="57265000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.33117408" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.33684212" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Python Console" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.27886322" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3428064" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39964476" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Remote Host" />
-      <window_info anchor="right" id="SciView" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.3285968" />
+      <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Remote Host" order="3" />
+      <window_info anchor="right" id="SciView" order="4" />
+      <window_info anchor="right" id="Database" order="5" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -374,9 +488,33 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/ArduinoCode/OnGroundRobot/Gas_Sensor_Test/Gas_Sensor_Test.ino" />
+    <entry file="file://$PROJECT_DIR$/OnGroundRobot/Visualizer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="19" column="52" selection-start-line="19" selection-start-column="43" selection-end-line="19" selection-end-column="52" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ArduinoCode/OnGroundRobot/FirebaseTest/FirebaseTest.ino">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OnBoardRobotRun.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="44" column="102" selection-start-line="44" selection-start-column="102" selection-end-line="44" selection-end-column="102" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/OnGroundRobot/Gamepad.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-811">
+        <state relative-caret-position="68">
           <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
@@ -384,23 +522,67 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/OnBoardRobotRun.py">
+    <entry file="file://$PROJECT_DIR$/../../Downloads/esp32-rtsp-master/esp32-rtsp-master/python/viewer.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="37" selection-start-line="37" selection-end-line="37" />
+        <state relative-caret-position="68">
+          <caret line="4" column="32" lean-forward="true" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
           <folding>
-            <element signature="e#0#10#0" expanded="true" />
+            <element signature="e#0#16#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/OnGroundRobot/Visualizer.py">
+    <entry file="file://$PROJECT_DIR$/OnGroundRobot/VideoTest.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
-          <caret line="114" column="47" selection-start-line="114" selection-start-column="47" selection-end-line="114" selection-end-column="47" />
+        <state relative-caret-position="51">
+          <caret line="3" column="35" selection-start-line="3" selection-start-column="35" selection-end-line="3" selection-end-column="35" />
           <folding>
-            <element signature="e#0#10#0" expanded="true" />
+            <element signature="e#0#18#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OnGroundRobot/NotInUse/VideoTest2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
+          <folding>
+            <element signature="e#1#17#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RealtimeObjectDetection/RealTimeObjectDetectionSample.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1394">
+          <caret line="81" column="4" selection-start-line="81" selection-start-column="4" selection-end-line="81" selection-end-column="4" />
+          <folding>
+            <element signature="e#32#69#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DroneCode/BrushlessMotorControll.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-274">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DroneCode/ThreadingTest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#16#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TODO">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
         </state>
       </provider>
     </entry>

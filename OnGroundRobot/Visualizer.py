@@ -10,7 +10,7 @@ class Visualizer():
     width: int = 640
     url: str = None
     capture = None
-    gas_level_threshold: int = .4
+    gas_level_threshold: int = .6
 
     def __init__(self, url):
         self.capture = cv2.VideoCapture(0)
@@ -108,7 +108,7 @@ class Visualizer():
 
         count:int = 0
         for x in self.sound_level_list:
-            frame[int(150-x*100):int(150-x*100)+5, 30+count:30+count+5] = (0, int(255-x*255), int(x*255))
+            frame[int(145-x*100):int(145-x*100)+5, 30+count:30+count+5] = (0, int(255-x*255), int(x*255))
             count+=1
 
         frame = cv2.putText(frame, "Sound Level", (30, 180), cv2.FONT_HERSHEY_DUPLEX, .8,

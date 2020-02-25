@@ -41,9 +41,10 @@ while True:
         right_stick_x = 0
 
     data = db.get_information()
-    db.write_information(gp.left_stick_y, gp.right_stick_x, light_on)
     #data.get('MicrophoneLevel')
-    frame = vis.get_frame(gp.left_stick_y, -gp.right_stick_x, math.sin(sound_level)/2+.5, data.get('Gas'), light_on, data.get('WifiNetwork'), data.get('MotionDetected'))
+    frame = vis.get_frame(left_stick_y, -right_stick_x, math.sin(sound_level)/2+.5, data.get('GasLevel')/100, light_on, data.get('WifiNetwork'), data.get('MotionDetected'))
+    db.write_information(left_stick_y, right_stick_x, light_on)
+
 
     if (frame is None) or (cv2.waitKey(1) & 0xFF == ord('q')):
         break
