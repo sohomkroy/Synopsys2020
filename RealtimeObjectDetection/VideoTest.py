@@ -1,7 +1,9 @@
 import numpy as np
 import cv2
+import time
 
-cap = cv2.VideoCapture("http://192.168.1.120:81/stream?light=off", cv2.CAP_OPENCV_MJPEG)
+cap = cv2.VideoCapture("D:\Sohom\Programming_Data\Synopsys2020\RealtimeObjectDetection\SampleVideo\\video1.mp4")
+time.sleep(5)
 print("got stream")
 while(True):
     # Capture frame-by-frame

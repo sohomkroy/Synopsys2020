@@ -19,9 +19,9 @@ m1_p1_3 = 2
 
 import Adafruit_PCA9685
 pwm = Adafruit_PCA9685.PCA9685()
-speed = 1
 pwm.set_pwm_freq(1600)
 
+m1_speed = 1
 
 while True:
 
@@ -29,9 +29,9 @@ while True:
     pwm.set_pwm(m1_p1_2, 0, motor_values[m1_p2])
     pwm.set_pwm(m1_p1_3, 0, motor_values[m1_p3])
 
-    m1_p1+=speed
-    m1_p2+=speed
-    m1_p3+=speed
+    m1_p1+=m1_speed
+    m1_p2+=m1_speed
+    m1_p3+=m1_speed
 
     if m1_p1>485:
         m1_p1 = 0
@@ -45,7 +45,7 @@ while True:
     if m1_p2<0:
         m1_p2=485
     if m1_p3<0:
-        m1_p3 = 485;
+        m1_p3 = 485
 
     time.sleep(time_delay)
 

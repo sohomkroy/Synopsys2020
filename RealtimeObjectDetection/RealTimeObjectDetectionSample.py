@@ -31,7 +31,10 @@ net = cv2.dnn.readNetFromCaffe("MobileNetSSD_deploy.prototxt.txt", "MobileNetSSD
 # initialize the video stream, allow the cammera sensor to warmup,
 # and initialize the FPS counter
 print("[INFO] starting video stream...")
-vs = VideoStream(src=0).start()
+
+
+
+vs = cv2.VideoCapture("SampleVideo\\video2.mp4")
 time.sleep(2.0)
 fps = FPS().start()
 
@@ -39,7 +42,7 @@ fps = FPS().start()
 while True:
     # grab the frame from the threaded video stream and resize it
     # to have a maximum width of 400 pixels
-    frame = vs.read()
+    ret, frame = vs.read()
     frame = imutils.resize(frame, width=400)
     # grab the frame dimensions and convert it to a blob
     (h, w) = frame.shape[:2]
@@ -65,6 +68,8 @@ while True:
             box = detections[0, 0, i, 3:7] * np.array([w, h, w, h])
             (startX, startY, endX, endY) = box.astype("int")
             # draw the prediction on the frame
+            if (CLASSES[idx]!="person"):
+                continue
             label = "{}: {:.2f}%".format(CLASSES[idx],
                                          confidence * 100)
             cv2.rectangle(frame, (startX, startY), (endX, endY),
@@ -87,4 +92,4 @@ print("[INFO] elapsed time: {:.2f}".format(fps.elapsed()))
 print("[INFO] approx. FPS: {:.2f}".format(fps.fps()))
 # do a bit of cleanup
 cv2.destroyAllWindows()
-vs.stop()
+vs.release()
