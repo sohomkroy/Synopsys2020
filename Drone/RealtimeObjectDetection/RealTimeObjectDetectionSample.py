@@ -32,9 +32,9 @@ net = cv2.dnn.readNetFromCaffe("MobileNetSSD_deploy.prototxt.txt", "MobileNetSSD
 # and initialize the FPS counter
 print("[INFO] starting video stream...")
 
+vs = cv2.VideoCapture(0)
 
-
-vs = cv2.VideoCapture("SampleVideo\\video2.mp4")
+#vs = cv2.VideoCapture("SampleVideo\\video2.mp4")
 time.sleep(2.0)
 fps = FPS().start()
 
