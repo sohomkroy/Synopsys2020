@@ -1,14 +1,14 @@
 import paramiko
-
+import random
 s = paramiko.SSHClient()
 s.set_missing_host_key_policy(paramiko.AutoAddPolicy())
-conn = s.connect("169.254.231.124", username ='pi', password='Greeny25448', port=22)
+conn = s.connect("169.254.248.74", username ='pi', password='raspberry', port=22)
+while True:
+    z_error = random.randint(0, 5)
 
-z_error = 5
+    command = 'cd /home/pi/Desktop/Synopsys2020/Drone \n echo "' +str(z_error)+ '" > file.txt'
 
-command = 'cd /home/pi/Desktop/Synopsys2020/ \n echo "' +str(z_error)+ '" > file.txt'
-
-s.exec_command(command)
+    s.exec_command(command)
 
 """
 Code to read error
